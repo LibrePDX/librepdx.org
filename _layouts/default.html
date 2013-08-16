@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>{% if page.title %}{{ page.title }} ::{% endif %} {{ site.name }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -18,25 +18,25 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <h1 class="title">
+                <a href="/">
+                  <span class="libre">Libre</span>
+                  <span class="pdx">PDX</span>
+                </a>
+              </h1>
+              <!--
               <a class="extra" href="/">home</a>
+              -->
             </div>
 
                 {{ content }}
 
             <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
+              <div class="license">
+                The LibrePDX website and content are licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike</a> License.
               </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
+              <div class="get-involved">
+                Learn how to contribute to this site at <a href="http://github.com/librepdx/librepdx.org/">github.com/librepdx/librepdx.org</a>.
               </div>
             </div>
           </div>

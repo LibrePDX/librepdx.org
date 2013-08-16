@@ -1,4 +1,4 @@
-# LibrePDX Website
+# LibrePDX Community Website
 
 This site is written using [Jekyll](http://jekyllrb.com/) and is compatible
 with [GitHub Pages](http://pages.github.com/).
