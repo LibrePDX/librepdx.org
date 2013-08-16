@@ -40,6 +40,13 @@ If you...
   other people in the community may be doing; we would love to hear about it!
 
 
+## License
+Contributors retain copyright of their works and agree to release it for use
+under the [CC-BY-SA 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/us/).
+
+For more information, see the [[LICENSE]] file.
+
+
 ## Installation
 These instructions only apply if you plan to work on a forked copy of this
 repository and eventually submit a pull request.
