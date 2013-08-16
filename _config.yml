@@ -1,5 +1,15 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+name: LibrePDX
 
+markdown: redcarpet
+
+# exclude vendor/ from being searched by Jekyll for page templates
 exclude: ['vendor']
+
+#---[ GitHub Consistency ]----------------------------------------------------
+# GitHub overrides some config settings. By setting them explicitly at the end
+# of the config, we ensure we're as close to their implementation as possible.
+# Changing these values will break GitHub Pages compatibility, be warned.
+#   see: https://help.github.com/articles/using-jekyll-with-pages
+safe: true # disable custom plugins
+lsi: false # produce an index for related posts
+pygments: true # syntax highlighting of code blocks
