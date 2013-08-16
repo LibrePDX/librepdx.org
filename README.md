@@ -16,15 +16,17 @@ If you...
   blog post that you would like other people to help contribute to, please
   consider using the wiki instead of a fork.
 
-* **have experience editing wikis**, we encourage you to use the GitHub [wiki]
-  to write new content such as _open source success stories_. When you are
-  done or are ready to solicit feedback from the community, create a new issue
-  in the [issue tracker](issues) and include a link to the wiki page. People
-  can then provide feedback and hopefully incorporate it back into the site
-  when you are ready.
+* **have experience editing wikis**, we encourage you to use the GitHub
+  [wiki](https://github.com/LibrePDX/librepdx.org/wiki) to write new content
+  such as _open source success stories_. When you are done or are ready to
+  solicit feedback from the community, create a new issue in the
+  [issue tracker](https://github.com/LibrePDX/librepdx.org/issues) and
+  include a link to the wiki page. People can then provide feedback and
+  hopefully incorporate it back into the site when you are ready.
 
 * **want to submit an idea, bug or small change**, we encourage you to go
- ahead and create a new issue in the [issue tracker](issues).
+  ahead and create a new issue in the
+  [issue tracker](https://github.com/LibrePDX/librepdx.org/issues).
 
 * **are not sure how to submit issues, use a wiki or have a GitHub account**,
   we encourage you to write down your ideas and any other notes in our
@@ -44,7 +46,7 @@ If you...
 Contributors retain copyright of their works and agree to release it for use
 under the [CC-BY-SA 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/us/).
 
-For more information, see the [[LICENSE]] file.
+For more information, see the [LICENSE](LICENSE) file.
 
 
 ## Installation
@@ -71,7 +73,7 @@ To run a copy of Jekyll locally:
 bundle exec jekyll serve -wH localhost
 ```
 
-You should now be able to access the site at [[http://localhost:4000]].
+You should now be able to access the site at [http://localhost:4000](http://localhost:4000).
 Any changes you make should be visible upon refreshing the page.
 
 Documentation on how to use Jekyll and the Liquid templating system:
