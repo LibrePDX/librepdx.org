@@ -30,7 +30,7 @@ If you...
 
 * **are not sure how to submit issues, use a wiki or have a GitHub account**,
   we encourage you to write down your ideas and any other notes in our
-  [public notepad](http://openetherpad.org/p/LibrePDX_Website). No username
+  [public notepad](https://notes.typo3.org/p/LibrePDX_Website). No username
   or password is required, just write! The community will keep an eye on things
   people write there and try to incorporate those ideas back into the site.
 
