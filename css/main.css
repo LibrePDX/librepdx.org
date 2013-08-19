@@ -1,175 +1,83 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  height: 100%;
-}
-
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  max-width: 630px;
+  margin: 20px auto;
+  padding: 0px 20px;
+  background-color: #fff;
   color: #666;
+  font: 15px Helvetica, Arial, sans-serif;
+  text-align: justify;
+  line-height: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  color: #333;
+  margin-top: 20px;
   margin-bottom: 10px;
+  color: #333;
 }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h2 {
+  font-size: 18px;
+}
+
+p {
+  margin: 10px 0px;
+}
 
 a {
+  border-bottom: 1px dotted #6ca;
   color: #0a6;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px dotted #6ca;
 }
 
 a img {
-  border-bottom: none;
+  border: none;
 }
 
-dt {
-  font-weight: bold;
-}
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 em {
   color: #448;
   font-weight: bold;
   font-style: normal;
 }
 
-#home h2 {
-  font-size: 120%;
-  margin-top: 20px;
+dl {
+  margin: 10px 0px 20px 20px;
 }
 
-#home ul {
-  margin-left: 20px;
-  margin-bottom: 20px;
+dl dt {
+  font-weight: bold;
 }
 
-#home ul li {
+ul {
+  margin: 10px 0px 20px 20px;
+}
+
+ul li {
   margin-bottom: 10px;
 }
 
-#home dl {
-  margin-left: 20px;
-  margin-bottom: 20px;
+.header {
+  margin: 40px 0px 20px 0px;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.site .header a {
-  font-weight: bold;
-  border-bottom: none;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.site .header .libre {
+#site-logo .libre {
   color: #0a6;
   font-size: 32px;
   font-weight: normal;
   font-style: italic;
 }
 
-.site .header .pdx {
+#site-logo .pdx {
   color: #000;
   font-size: 30px;
   margin-left: -5px;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
-.site .meta {
-  color: #aaa;
-}
-
-.site .footer {
-  font-size: 70%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 4em;
+.footer {
   overflow: hidden;
+  margin-top: 4em;
+  border-top: 4px solid #eee;
+  color: #666;
+  font-size: 12px;
   text-align: center;
-}
-
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
 }
