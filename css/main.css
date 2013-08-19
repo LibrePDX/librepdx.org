@@ -24,14 +24,27 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a {
+  color: #0a6;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted #6ca;
+}
+
+a img {
+  border-bottom: none;
+}
+
+dt {
+  font-weight: bold;
+}
 
 /*****************************************************************************/
 /*
@@ -39,24 +52,28 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 em {
-  /* color: #08c; */
-  color: #48a;
+  color: #448;
   font-weight: bold;
+  font-style: normal;
 }
 
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+#home h2 {
+  font-size: 120%;
+  margin-top: 20px;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+#home ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+#home ul li {
+  margin-bottom: 10px;
+}
+
+#home dl {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 /*****************************************************************************/
@@ -75,7 +92,7 @@ ul.posts span {
 
 .site .header a {
   font-weight: bold;
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .site .header h1.title {
